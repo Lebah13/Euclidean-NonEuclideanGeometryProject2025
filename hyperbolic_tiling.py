@@ -177,15 +177,14 @@ def plot_tiling(polygons, p, q):
 
 if __name__ == "__main__":
     # Choose your (p, q): must satisfy (p-2)(q-2) > 4 for hyperbolic tiling
-    p = 4
+    p = 6
     q = 8
-    depth = 3   # 2 or 3 is a good starting point
+    depth = 3 
 
     print(f"Generating hyperbolic tiling for {{{p},{q}}} with depth {depth}...")
     polygons = generate_tiling(p, q, max_depth=depth)
     print(f"Generated {len(polygons)} polygons.")
 
-    # In CI (GitHub Actions sets CI=true), save to file instead of opening a window
     running_in_ci = os.getenv("CI") == "true"
 
     if running_in_ci:
