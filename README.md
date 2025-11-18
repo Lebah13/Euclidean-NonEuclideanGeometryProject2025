@@ -18,7 +18,9 @@ $$
 \[
 \mathbb{D} = \{ z \in \mathbb{C} : |z| < 1 \}
 \]
+$$
 with hyperbolic metric
+$$
 \[
 ds = \frac{2|dz|}{1 - |z|^2}.
 \]
