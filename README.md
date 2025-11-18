@@ -53,6 +53,7 @@ The script:
 4. Draws all polygon edges as **true hyperbolic geodesics** (orthogonal circle arcs) inside the unit disc using Matplotlib.
 
 ---
+Some sample tiles have been made and can be seen if you go to GITHUB ACTIONS tab and then click on individual runs, you can then click ARTIFACTS, and the pictures will be available for download there. 
 
 ## Repository contents
 
