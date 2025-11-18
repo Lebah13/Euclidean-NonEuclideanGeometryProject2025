@@ -31,7 +31,7 @@ Key facts used in the code:
 - **Geodesics** (hyperbolic straight lines) in the disc are:
   - circular arcs orthogonal to the unit circle, or  
   - diameters through the origin.
-- A regular $$\(\{p, q\}\)$$ tiling is built from a **regular hyperbolic $$\(p\)$$-gon** where $$\(q\)$$such polygons meet at each vertex.
+- A regular $$\(\{p, q\}\)$$ tiling is built from a **regular hyperbolic $$\(p\)$$-gon** where $$\(q\)$$ such polygons meet at each vertex.
 - Reflections in geodesics generate a discrete group of **hyperbolic isometries** that tile the plane.
 
 The script:
