@@ -177,8 +177,8 @@ def plot_tiling(polygons, p, q):
 
 if __name__ == "__main__":
     # Choose your (p, q): must satisfy (p-2)(q-2) > 4 for hyperbolic tiling
-    p = 3
-    q = 18
+    p = 5
+    q = 5
     depth = 3 
 
     print(f"Generating hyperbolic tiling for {{{p},{q}}} with depth {depth}...")
