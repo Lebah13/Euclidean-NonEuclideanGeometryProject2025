@@ -34,6 +34,17 @@ Key facts used in the code:
 - A regular $$\(\{p, q\}\)$$ tiling is built from a **regular hyperbolic $$\(p\)$$-gon** where $$\(q\)$$ such polygons meet at each vertex.
 - Reflections in geodesics generate a discrete group of **hyperbolic isometries** that tile the plane.
 
+- $$\(p\)$$ = number of sides per polygon.
+- $$\(q\)$$ = number of polygons meeting at each vertex.
+
+The tiling $$\(\{p, q\}\)$$ lives in:
+
+spherical geometry if $$(p - 2)(q - 2) < 4$$
+
+Euclidean geometry if $$(p - 2)(q - 2) = 4$$
+
+hyperbolic geometry if $$(p - 2)(q - 2) > 4$$
+
 The script:
 
 1. Constructs a regular hyperbolic $$\(\{p, q\}\)$$ polygon centered at the origin.
